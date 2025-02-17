@@ -8,4 +8,9 @@
   <p class="listing-heading">
     {{ housingLocationInput.city }}, {{ housingLocationInput.state }}
   </p>
+  <a
+    [routerLink]="['/details', housingLocationInput.id]"
+    routerLinkActive="router-link-active"
+    >Learn more</a
+  >
 </section>
