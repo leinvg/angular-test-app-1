@@ -12,7 +12,7 @@ export class HousingService {
     {
       id: 1,
       name: 'Test Home 1',
-      city: 'Test City 1',
+      city: 'Lima',
       state: 'ST',
       photo: `${this.basePhotoUrl}`,
       availableUnits: 99,
@@ -22,7 +22,7 @@ export class HousingService {
     {
       id: 2,
       name: 'Test Home 2',
-      city: 'Test City 2',
+      city: 'Lima',
       state: 'ST',
       photo: `${this.basePhotoUrl}`,
       availableUnits: 99,
@@ -32,7 +32,7 @@ export class HousingService {
     {
       id: 3,
       name: 'Test Home 3',
-      city: 'Test City 3',
+      city: 'Tacna',
       state: 'ST',
       photo: `${this.basePhotoUrl}`,
       availableUnits: 99,
